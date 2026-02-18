@@ -1,2 +1,27 @@
+# If all your project files are on GitHub as backup or so you can
+# work anywhere, would you want to exclude these files in git?  ;tb
+
+# Root Files
+.eleventy.js
+
+
 node_modules
-_site
+package.json
+package-lock.json
+11ty_Setup Guide-04.md
+
+.cache
+.DS_Store
+.env
+.sass-cache
+*.log
+*.scssc
+*.swp
+npm-debug.*
+
+# Folders
+src
+
+_site   #output folder
+dist    #output folder
+public  #output folder
